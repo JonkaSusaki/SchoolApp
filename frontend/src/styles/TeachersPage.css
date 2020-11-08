@@ -1,0 +1,39 @@
+.teachers-page {
+    padding: 50px;
+    height: 100vh;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teachers-page h2 {
+    margin-bottom: 20px;
+}
+
+.teachers-table {
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    border-left: 1px solid black;
+}
+
+hr {
+    margin: 200px 0;
+    
+}
+
+.teachers-page input {
+    width: 200px;
+    margin: 15px 0 20px 0;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    background-color:#bdc3c7;
+    outline: none;
+}
+
+.teachers-page-card {
+    padding: 20px;
+    height: 100%;
+    width: 90%;
+
+}

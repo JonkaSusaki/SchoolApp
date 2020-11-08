@@ -1,0 +1,79 @@
+.admin-teacher-form .inputs input {
+    background-color: #bdc3c7;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 500px;
+    padding: 10px;
+}
+
+.admin-page h3 {
+    margin-bottom: 20px;
+}
+
+.admin-teacher-form .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-teacher-form .buttons {
+    margin-top: 20px;
+}
+
+.admin-teacher-form .buttons .save-button {
+    padding: 10px;
+    margin-right: 20px;
+    width: 100px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #0984e3;
+    color: #ffffff;
+}
+
+.admin-teacher-form .buttons .clear-button {
+    padding: 10px;
+    margin-right: 20px;
+    width: 100px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #b2bec3;
+    color: #ffffff;
+}
+
+.admin-teacher-form .buttons .delete-button {
+    padding: 10px;
+    margin-right: 20px;
+    width: 100px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #e74c3c;
+    color: #ffffff; 
+}
+
+.admin-page h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.admin-teacher-form .inputs .input-grades .input-number {
+    width: 70px;
+    margin: 5px 10px 5px 0;
+}
+
+.admin-page {
+    overflow-y: auto;
+/*     height: 100%;
+ */}
+
+ .admin-teacher-form .inputs .input-grades .input-number-freq {
+    width: 90px;
+    margin: 5px 10px 5px 0;
+}

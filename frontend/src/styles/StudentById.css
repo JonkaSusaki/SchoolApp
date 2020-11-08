@@ -1,0 +1,24 @@
+.student-by-id-page {
+    padding: 20px;
+    height: 100vh;
+}
+
+.student-by-id-page h2 {
+    margin-bottom: 10px;
+}
+
+.graph {
+    height: 180px;
+    width: 300px;
+    margin: 15px;
+    
+    background: #f5f6fa;
+    border-radius: 20px;
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.student-graphs {
+    display: flex;
+    flex-wrap: wrap;
+    
+}

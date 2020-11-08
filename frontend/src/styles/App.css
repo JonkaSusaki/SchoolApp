@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    background-color: #ecf0f1;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+#root .App {
+    height: 100%;
+    background-color: #ecf0f1;
+
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: "aside routes";
+}
